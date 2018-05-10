@@ -1,4 +1,7 @@
+# -*- coding: cp936 -*-
+
 import rsa
+print("start")
 
 # Éú³ÉÃÜÔ¿
 (pubkey, privkey) = rsa.newkeys(1024)
