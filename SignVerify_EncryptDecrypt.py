@@ -24,7 +24,7 @@ with open('private.pem','r') as f:
 
     
 # 明文
-message = 'hello'
+message = 'hello xby 2018510'
 
 # 公钥加密
 crypto = rsa.encrypt(message.encode(), pubkey)
